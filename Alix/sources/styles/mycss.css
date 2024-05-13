@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+
+body {
+  font-family: "Dancing Script", serif;
+  background: linear-gradient(90deg, #8e8e8e 0%, #5f3825 100%);
+}
+
+p {
+  color: rgb(202, 202, 202);
+}
+
+.nav-link {
+  color: rgb(202, 202, 202);
+}
+.navbar-nav .nav-link.active {
+  color: rgb(201, 201, 201);
+}
+.navbar-brand img {
+  width: 150px;
+  height: 50px;
+}
+.navbar-toggler {
+  background-color: rgb(203, 203, 203);
+}
+.sidebar {
+  color: rgb(202, 202, 202);
+  background: linear-gradient(90deg, #848484 0%, #5f3825 100%);
+}
+.card {
+  background: linear-gradient(270deg, #848484 0%, #5f3825 100%);
+  color: rgb(201, 201, 201);
+}
+.card a {
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+}
+.slide-text,
+.footer-text {
+  color: rgb(201, 201, 201);
+  margin: auto auto;
+}
+footer,
+.btn-outline-primary {
+  background: linear-gradient(270deg, #848484 0%, #5f3825 100%);
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-anim {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
